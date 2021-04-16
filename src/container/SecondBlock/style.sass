@@ -1,0 +1,76 @@
+@import url(//db.onlinewebfonts.com/c/91c8bf05e5746c57c98fd7df8c556dd4?family=FoundryMonoline-ExBdIta)
+@import url(//db.onlinewebfonts.com/c/5ab00d2b042c8a215c4fc486c4826b90?family=FoundryMonoline-MedIta)
+
+.block-2 
+  
+  display: grid
+  grid-template-columns: 0.8fr 0.5fr 0.5fr 0.8fr 1fr
+  grid-template-rows: repeat(5, 1fr)
+  padding-left: 105px
+
+  :nth-child(1)  
+    grid-area: 1 / 1 / 3 / 3
+    text-align: left
+    font: italic normal normal 34px/46px FoundryMonoline-ExBdIta ☞
+    letter-spacing: 0px
+    color: #000000
+    opacity: 1
+    margin-top: 15px
+  :nth-child(2)
+    grid-area: 2 / 1 / 5 / 2
+    margin-right: 15px
+    margin-top: 15px
+    opacity: 1
+    margin-bottom: .5vw
+    :first-child
+      border: 1px solid #D5D5D5
+      opacity: 1
+      margin: .2vw
+    :nth-child(2)
+      border: 1px solid #D5D5D5
+      opacity: 1
+      margin: .2vw
+    :nth-child(3)
+      border: 1px solid #D5D5D5
+      opacity: 1
+      width: 167px
+      background-size: cover
+  :nth-child(3)
+    grid-area: 4/ 3 /2 /2
+    padding-right: 30px
+  :nth-child(4)  
+    grid-area: 5 / 1 / 7 / 5
+    :first-child
+      text-align: left
+      font: normal normal normal 18px/24px FoundryMonoline ☞
+      letter-spacing: 0px
+      color: #000000
+      opacity: 1
+
+/*responsive*/ 
+@media  (max-width: 649px)
+  .block-2
+    width: 100%
+    :first-child
+      position: relative
+      left: -35px
+      width: 335px
+      height: 85px
+      text-align: center
+      font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞
+      letter-spacing: 0px
+      color: #000000
+      opacity: 1
+    :nth-child(2)
+      display: none
+    :nth-child(3)
+      position: relative
+      left: -135px
+    :nth-child(4)
+      position: relative
+      bottom: 150px
+      text-align: center
+      font: normal normal normal 18px/24px FoundryMonoline-Regular ☞
+      letter-spacing: 0px
+      color: #000000
+      opacity: 1  

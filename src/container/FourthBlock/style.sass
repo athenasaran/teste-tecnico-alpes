@@ -1,0 +1,143 @@
+@import url(//db.onlinewebfonts.com/c/91c8bf05e5746c57c98fd7df8c556dd4?family=FoundryMonoline-ExBdIta)
+@import url(//db.onlinewebfonts.com/c/5ab00d2b042c8a215c4fc486c4826b90?family=FoundryMonoline-MedIta)
+
+@import url(//db.onlinewebfonts.com/c/91c8bf05e5746c57c98fd7df8c556dd4?family=FoundryMonoline-ExBdIta)
+@import url(//db.onlinewebfonts.com/c/5ab00d2b042c8a215c4fc486c4826b90?family=FoundryMonoline-MedIta)
+
+.block-4 
+  
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-items: flex-start
+  margin-left: 100px
+  margin-top: 20px
+  :nth-child(1)
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+    :first-child
+      width: 495px
+      height: 46px
+      text-align: left
+      font: italic normal normal 34px/46px FoundryMonoline-ExBdIta ☞
+      letter-spacing: 0px
+      color: #000000
+      opacity: 1
+      white-space: nowrap
+
+  :nth-child(2)    
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+    margin: 15px 0
+    :first-child
+      width: 414px
+      height: 24px
+      text-align: left
+      font: normal normal normal 18px/24px FoundryMonoline-Regular ☞
+      letter-spacing: 0px
+      color: #000000
+      opacity: 1
+      white-space: nowrap
+
+
+
+  .card
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    align-items: flex-start
+  .container
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    width: 270px
+    height: 350px
+    background: #FFFFFF 0% 0% no-repeat padding-box
+    border: 1px solid #D5D5D5
+    border-radius: 4px
+    opacity: 1
+    text-align: center
+    margin: 15px
+    
+    .imagem
+      width: 211px
+      height: 179px
+    .text
+      width: 230px
+      height: 79px
+      text-align: center
+      font: normal normal 300 14px/24px Roboto
+      letter-spacing: 0px
+      color: #000000
+      opacity: 1
+      justify-content: space-around
+      align-items: center
+    .div-button
+      display: flex
+      width: 230px
+      height: 36px
+      border: 1px solid #D5D5D5
+      border-radius: 4px
+      opacity: 1
+      margin-top: 5px
+      white-space: nowrap
+    .button
+      width: 230px
+      height: 36px
+      border: 1px solid #D5D5D5
+      border-radius: 4px
+      opacity: 1
+      background: #FFFFFF
+      text-align: center
+      font: normal normal 300 14px/24px Roboto
+      letter-spacing: 0px
+      color: #000000
+      opacity: 1
+      white-space: nowrap
+
+      margin: 0vw 1vw 1vw 1vw
+
+/*responsive*/  
+
+@media  (max-width: 649px)
+  .block-4
+    margin: 0
+    width: auto
+    :first-child
+      position: relative
+      top: 8px
+      left: 5px
+      right: 5px
+      width: 335px
+      height: 65px
+      :first-child
+        text-align: center
+        font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞
+        letter-spacing: 0px
+        color: #000000
+        opacity: 1
+    .card
+      display: flex
+      flex-direction: column
+      .container
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 270px
+        height: 350px
+        background: #FFFFFF 0% 0% no-repeat padding-box
+        border: 1px solid #D5D5D5
+        border-radius: 4px
+        opacity: 1
+        text-align: center
+        margin: 15px
+      .text
+        display: none
+      .button
+        margin-top: 15%    

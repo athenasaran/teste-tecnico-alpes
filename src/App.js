@@ -1,15 +1,20 @@
 import './global.sass';
-import Header from './components/Header/index'
-import Central from './components/Central/index'
-import Footer from './components/Footer/index'
+import Header from './container/Header/index'
+import SecondBlock from './container/SecondBlock/index'
+import ThirdBlock from './container/ThirdBlock/index'
+import FourthBlock from './container/FourthBlock/index'
+
+import Footer from './container/Footer/index'
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
-      {/* <Central /> */}
+      <SecondBlock />
+      <ThirdBlock />
+      <FourthBlock />
       <Footer />
-    </>
+    </div>
   )
 }
 
